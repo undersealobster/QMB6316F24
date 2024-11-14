@@ -1,16 +1,15 @@
 
 ################################################################################
 #
-# QMB 6358: Software Tools for Business Analytics
+# QMB 6316.0081 R for Business Analytics
 # Introductory Examples: Data Loading and Manipulation
 #
 # Lealand Morin, Ph.D.
-# Assistant Professor
-# Department of Economics
+# Adjunct Professor
 # College of Business
 # University of Central Florida
 #
-# September 9, 2020
+# November 14, 2024
 #
 ################################################################################
 #
@@ -35,11 +34,10 @@ rm(list=ls(all=TRUE))
 # Set working directory.
 # The '<-' operator denotes right-to-left assignment.
 # wd_path <- '/path/to/your/folder'
-# "~/Teaching/QMB6358_Fall_2021/GitRepo/QMB6358F21/demo_07_data_in_R"
 
-wd_path <- '~/Teaching/QMB6358_Fall_2021/GitRepo/QMB6358F21/demo_07_data_in_R'
-setwd(wd_path)
-getwd()
+wd_path <- '~/GitHub/QMB6316F24/demo_05_data_in_R'
+# setwd(wd_path)
+# getwd()
 
 # Set paths to other folders.
 # data_path <- sprintf('%s/data', wd_path)
@@ -89,6 +87,48 @@ write.csv(iris, file = 'iris.csv')
 # Read in your copy to a data frame.
 iris_df <- read.csv(file = 'iris.csv')
 
+
+
+
+
+################################################################################
+# Experiment with extensions.
+################################################################################
+
+
+# Note that R doesn't care what extensions you use in your filenames.
+iris_whatever <- read.csv(file = 'iris.whatever')
+# The extensions are a courtesy to the user to communicate the nature of the file.
+# It is also used by some popular operating systems to determine what 
+# programs are compatible with the file.
+# R does not use the extension, however, it uses the format of the contents
+# to determine how to load the file.
+
+# If you try to read a txt file with read.csv() it will import 
+# everything in one column because it finds no commas to separate text.
+cars_wrong <- read.csv(file = 'cars.txt')
+summary(cars_wrong)
+
+
+# Making our own read.csv() from read.table() with options.
+
+# The first stage is to read the file.
+iris_maybe <- read.table(file = 'iris.csv')
+# It loads everything into two columns, with the second column
+# containing all the data in a single string.
+
+# Unless the file is delimited by spaces or tabs (whitespace)
+# you have to specify the delimiter. 
+iris_probably <- read.table(file = 'iris.csv', sep = ',')
+# Now it separates the columns but mistake the headers for
+# the first row of data.
+summary(iris_probably)
+# It looked good at first, until you realize these are all characters.
+
+# Now specify that the first row is the header.
+iris_for_sure <- read.table(file = 'iris.csv', sep = ',', header = TRUE)
+summary(iris_for_sure)
+# This is a simple work-around to (partially) re-create the read.csv() function.
 
 
 ################################################################################
