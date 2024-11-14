@@ -1,21 +1,20 @@
 ##################################################
 #
-# ECO 6416.0028 Applied Business Research Tools
+# QMB 6316.0081 R for Business Analytics
 #
 # OLS Regression Demo
 # Generation of Simulated Data for Regression Demos
 #
 # Lealand Morin, Ph.D.
-# Assistant Professor
-# Department of Economics
+# Adjunct Professor
 # College of Business
 # University of Central Florida
 #
-# August 25, 2023
+# November 13, 2024
 #
 ##################################################
 #
-# ECO6416_tools is a library of functions for
+# sim_tools is a library of functions for
 #     in-class demonstrations of linear regression.
 #
 # This version has new tools for generating
