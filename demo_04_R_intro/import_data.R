@@ -1,21 +1,20 @@
 ##################################################
 #
-# ECO 6416.0028 Applied Business Research Tools
+# QMB 6316.0081 R for Business Analytics
 #
 # OLS Regression Demo
 # Regression with Data from Spreadsheet
 #
 # Lealand Morin, Ph.D.
-# Assistant Professor
-# Department of Economics
+# Adjunct Professor
 # College of Business
 # University of Central Florida
 #
-# August 25, 2023
+# November 13, 2024
 #
 ##################################################
 #
-# ECO6416_Import_Data gives an example of OLS regression
+# import_data gives an example of OLS regression
 #   using data imported from a spreadsheet.
 #
 # Dependencies:
@@ -41,7 +40,7 @@ rm(list=ls(all=TRUE))
 # 4. Copy the command from the Console in the bottom left pane.
 # 5. Paste the command below:
 
-setwd("C:/Users/le279259/OneDrive - University of Central Florida/Desktop/ECO6416_Demos")
+setwd("~/GitHub/QMB6316F24/demo_04_R_intro")
 # Now, RStudio should know where your files are.
 
 
