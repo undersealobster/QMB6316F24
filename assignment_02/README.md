@@ -6,16 +6,16 @@ the spaces below.
 ## Running the Script as Given
 
 Run the entire script and compare 
-the output from ```summary(lm\_full\_model)```, 
+the output from ```summary(lm_full_model)```, 
 which includes all variables, 
-with that from ```summary(lm\_no\_damage)```, 
+with that from ```summary(lm_no_damage)```, 
 which omits the damage indicator. 
 If there are no cars with damage in your simulation, 
 run the script again to take another draw.
 
 
 a. Copy and paste the regression model estimates after the commands
-```summary(lm\_full\_model)``` and ```summary(lm\_no\_damage)```. 
+```summary(lm_full_model)``` and ```summary(lm_no_damage)```. 
 
 ```
 Copy your results here.
@@ -46,7 +46,7 @@ Type your response here.
 
 
 c. Copy and paste the new regression model estimates after the commands
-```summary(lm\_full\_model)``` and ```summary(lm\_no\_damage)```. 
+```summary(lm_full_model)``` and ```summary(lm_no_damage)```. 
 
 ```
 Copy your results here.
