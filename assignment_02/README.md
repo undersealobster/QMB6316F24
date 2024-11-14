@@ -45,7 +45,7 @@ Type your response here.
 ## Running the Script after Modification
 
 
-c. Copy and paste the new regression model estimates after the commands
+d. Copy and paste the new regression model estimates after the commands
 ```summary(lm_full_model)``` and ```summary(lm_no_damage)```. 
 
 ```
@@ -53,7 +53,7 @@ Copy your results here.
 ```
 
 
-d. For this new set of regressions, compare the estimated coefficient 
+e. For this new set of regressions, compare the estimated coefficient 
 for ```ACCIDENT``` with and without the damage variable. 
 How does this relate to the new coefficient for ```DAMAGE```?
 
@@ -62,7 +62,7 @@ Type your response here.
 ```
 
 
-e. Compare the values of 
+f. Compare the values of 
 ```Multiple R-squared``` and ```Adjusted R-squared``` for the two models. 
 Now which model do you recommend (pretending that you don't know the true model)? 
 
