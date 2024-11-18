@@ -111,7 +111,7 @@ summary(tractor_sales_specs)
 ##################################################
 
 # Use all available variables from full dataset.
-colnames(tractor_full)
+colnames(tractor_sales_specs)
 
 # Estimate a regression model.
 lm_model_1 <- lm(data = tractor_sales_specs,
@@ -132,7 +132,7 @@ summary(lm_model_1)
 
 
 # Load the dataset of tractor specifications.
-tractor_cabs <- read.csv('tractor_cabs.csv')
+tractor_cabs <- read.csv('tractors_with_cabs.csv')
 
 # Inspect the contents.
 summary(tractor_cabs)
@@ -157,6 +157,9 @@ summary(tractor_full)
 tractor_full <- merge(x = tractor_sales_specs, y = tractor_cabs, 
                       all.x = TRUE)
 
+# Check the data again.
+summary(tractor_full)
+# Cab is either 1 or missing (NA's).
 
 
 # Then replace the cab variable with a proper indicator.

@@ -148,7 +148,7 @@ summary(lm_model_3)
 
 ##################################################
 # Estimating a Regression Model
-# Model 3: Linear model for log of dollar sale price
+# Model 4: Linear model for log of dollar sale price
 # Omit seasonal indicators and transmission type
 ##################################################
 
@@ -180,6 +180,14 @@ summary(lm_model_4)
 ##################################################
 
 
+##################################################
+# Estimating a Regression Model
+# Model 5: Linear model for log of dollar sale price
+# Omit seasonal indicators and transmission type
+# and estimate with nonlinear relationship with horsepower
+##################################################
+
+
 
 # Estimate a regression model.
 lm_model_5 <- lm(data = tractor_full,
@@ -190,6 +198,30 @@ lm_model_5 <- lm(data = tractor_full,
 
 # Output the results to screen.
 summary(lm_model_5)
+
+
+# Note that diesel indicator is no longer significant.
+
+
+##################################################
+# Estimating a Regression Model
+# Model 6: Linear model for log of dollar sale price
+# Omit seasonal indicators, diesel, and transmission type
+# and estimate with nonlinear relationship with horsepower
+##################################################
+
+
+
+# Estimate a regression model.
+lm_model_6 <- lm(data = tractor_full,
+                 formula = log_saleprice ~ horsepower + squared_horsepower +
+                   age + enghours +
+                   cab +
+                   # diesel + 
+                   fwd + johndeere)
+
+# Output the results to screen.
+summary(lm_model_6)
 
 
 ##################################################

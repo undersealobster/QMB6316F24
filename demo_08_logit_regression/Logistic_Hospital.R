@@ -162,7 +162,7 @@ roc(response = hospital_choice[, 'D'],
 
 # Estimate a logistic regression model.
 logit_model_2 <- glm(data = hospital_choice,
-                     formula = D ~ DISTANCE + INCOME + OLD, # Modify this line.
+                     formula = D ~ DISTANCE + INCOME + OLD, 
                      family = 'binomial')
 
 # Output the results to screen.
@@ -193,7 +193,7 @@ roc(response = hospital_choice[, 'D'],
 # Estimate a logistic regression model.
 logit_model_3 <- glm(data = hospital_choice,
                      formula = D ~ DISTANCE + INCOME + OLD +
-                       OLD:DISTANCE, # Modify this line.
+                       OLD:DISTANCE, 
                      family = 'binomial')
 
 # Output the results to screen.
