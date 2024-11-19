@@ -1,7 +1,8 @@
 # Linear Regression 
 
 Linear regression is a statistical method for obtaining a prediction of an outcome 
-<img src="https://render.githubusercontent.com/render/math?math=Y_i"> 
+<img src="https://render.githubusercontent.com/render/math?math=Y_i">  
+<img src="https://latex.codecogs.com/gif.latex?math=Y_i"> 
 from an observed variable.
 
 ## The Regression Equation
