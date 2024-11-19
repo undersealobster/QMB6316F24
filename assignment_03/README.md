@@ -24,10 +24,9 @@ except for the indicator for an enclosed cab.
 Enter your regression results here.
 
 
-
 ```
-	
-    Does this seem to be a reasonable model, as opposed to using average tractor prices? 
+
+Does this seem to be a reasonable model, as opposed to using average tractor prices? 
 	That is, is the R-squared or the R-bar-squared reasonably high?
 
 ```
@@ -55,7 +54,7 @@ c. Before making any reductions to your model, revise the model specification fi
 	by considering nonlinear specifications.
 	A used tractor dealer tells you that overpowered used tractors are hard to sell, since they consume more fuel. 
       Tractor prices often increase with horsepower, up to a point, but beyond that they decrease. 
-      To incorporate this advice, you create and include a variable for squared horsepower. 
+      To incorporate this advice, you create and include a variable for squared horsepower and include that in a new regression model. 
       
 
 ```
@@ -66,7 +65,7 @@ Enter your regression results here.
 ```
 
 
-    c.i) Hypothesize the signs for the coefficients on horsepower 
+  c.i) Hypothesize the signs for the coefficients on horsepower 
 	under this scenario. 
 		What should be the sign of the coefficient for horsepower? 
 		What sign do you expect for squared horsepower?
@@ -81,6 +80,7 @@ Enter your response here.
 That is, are the t-statistics higher than 1.96, with the same sign as you hypothesized?
 
 ```
+
 Enter your response here.
 Use the coefficients from the regression output for this model to draw your conclusions.
 
@@ -92,10 +92,10 @@ Use the coefficients from the regression output for this model to draw your conc
             Which model do you recommend? 
 		Be sure to cite evidence to support your choice. 
 		Specifically, check the four specification criteria: 
-		- statistical significant $t$-statistics, 
-		- an increase in R-squared, 
+		statistical significant $t$-statistics, 
+		an increase in R-squared, 
 		a good theoretical justification, and 
-		- no large change in the other coefficients.
+		no large change in the other coefficients.
 
 ```
 Enter your response here.
@@ -132,9 +132,9 @@ Enter your regression results here.
 
 ```
 
-       Test the hypothesis, at the 5 percent level of significance, that the slope for engine hours differs by brand. 
+  Test the hypothesis, at the 5 percent level of significance, that the slope for engine hours differs by brand. 
 
-       Does an additional hour of use affect the price of a John Deere tractor
+  Does an additional hour of use affect the price of a John Deere tractor
 	differently than tractors of other brands?
 	
 ```
