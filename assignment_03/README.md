@@ -125,17 +125,17 @@ e. Finally, consider another modification to your model.
 	differently than for tractors of other brands. 
 	You can test this by including an interaction with ```age:johndeere``` in the regression.
 	
-	```
+```
 Enter your regression results here.
 
 
 
 ```
 
-  Test the hypothesis, at the 5 percent level of significance, that the slope for engine hours differs by brand. 
+Test the hypothesis, at the 5 percent level of significance, that the slope for engine hours differs by brand. 
 
-  Does an additional hour of use affect the price of a John Deere tractor
-	differently than tractors of other brands?
+Does an additional hour of use affect the price of a John Deere tractor
+differently than tractors of other brands?
 	
 ```
 Enter your response here.
