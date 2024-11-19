@@ -87,13 +87,13 @@ summary(my_lm_model)
 
 The quality of fit of a regression model is determined by the degree to which the observations fit close to the regression line. 
 It is represented by the statistic 
-<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20r^2"/>, 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20R^2"/>, 
 pronounced "R-squared."
 This statistic ranges from 
-<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20r^2 = 1"/>, 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20R^2=1"/>, 
 for a model that fits the data perfectly,
 to 
-<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20r^2 = 0"/>, 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20R^2=0"/>, 
 if the dependent variable 
 <img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i"/>
 is unrelated to the explanatory variable
