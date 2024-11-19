@@ -3,15 +3,15 @@
 
 When the variable takes the form of a binary variable, i.e., it takes on only two values, say, 0 and 1, the linear regression model is not appropriate. 
 The logistic regression model uses the logistic transformation to produce an estimate of the probability that 
-<img src="https://render.githubusercontent.com/render/math?math=Y_i = 1">.
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i=1"/>.
 
 ## The Logistic Equation
 
 The logistic equation also implies that the data are a transformation of a linear equation in
-<img src="https://render.githubusercontent.com/render/math?math=X_i">
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20X_i"/>
 by applying the *logit* transformation:
 
-<img src="Images/Logistic_Regression_Equation.gif">
+<img src="Images/Logistic_Regression_Equation.gif"/>
 
 ## Comparison with Linear Probability Model
 
@@ -19,9 +19,9 @@ by applying the *logit* transformation:
 The prediction from a linear regression is called the *linear probability model* when it is used to predict binary events. 
 Compared to the linear probability model, the logisti regression produces estimates of the probabilities that are constrained to lie between zero and one, as they should. 
 In contrast, the predictions from the linear probability model will be greater than one and lower than zero for some values of 
-<img src="https://render.githubusercontent.com/render/math?math=X_i">.
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20X_i"/>.
 
-<img src="Images/Logistic_vs_OLS_Regression.png">
+<img src="Images/Logistic_vs_OLS_Regression.png"/>
 
 
 
@@ -72,13 +72,13 @@ summary(my_logit_model)
 Another method is used to measure the quality of fit of a logistic regression model. 
 A statistic called the *Area under the ROC Curve* is appropriate for this. 
 The *AUROC* is interpreted as the probability that any pair of predictions is correctly ordered, when one observation is drawn from 
-<img src="https://render.githubusercontent.com/render/math?math=Y_i = 0">
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i=0"/>
 and one is drawn from
-<img src="https://render.githubusercontent.com/render/math?math=Y_i = 1">, 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i=1"/>, 
 where "correctly ordered" means that the prediction for the probability that
-<img src="https://render.githubusercontent.com/render/math?math=Y_i = 1">
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i=1"/>
 is higher than the prediction for the probability that
-<img src="https://render.githubusercontent.com/render/math?math=Y_i = 0">.
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i=0"/>.
 
 Although it is quite commonly used in industry, 
 this statistic is not automatically printed out with the ```glm``` model output. 
