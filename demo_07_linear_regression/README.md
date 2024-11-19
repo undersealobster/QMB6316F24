@@ -1,7 +1,6 @@
 # Linear Regression 
 
 Linear regression is a statistical method for obtaining a prediction of an outcome 
-<img src="https://render.githubusercontent.com/render/math?math=Y_i">  
 <img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i"/> 
 from an observed variable.
 
@@ -9,33 +8,33 @@ from an observed variable.
 
 
 The prediction takes the form of a linear equation for the prediction of 
-<img src="https://render.githubusercontent.com/render/math?math=Y_i"> 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i"/> 
 as a linear combination of the variables
-<img src="https://render.githubusercontent.com/render/math?math=X_i">
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20X_i"/>
 multiplied by the parameter
-<img src="https://render.githubusercontent.com/render/math?math=\beta_1">, 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20\beta_1"/>, 
 plus an intercept
-<img src="https://render.githubusercontent.com/render/math?math=\beta_0">.
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20\beta_0"/>.
 
-<img src="Images/Regression_Equation.png">
+<img src="Images/Regression_Equation.png"/>
 
 
 ## The Minimization Problem
 
 The parameters 
-<img src="https://render.githubusercontent.com/render/math?math=\beta_1"> 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20\beta_1"/> 
 and
-<img src="https://render.githubusercontent.com/render/math?math=\beta_0">
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20\beta_0"/>
 are estimated by minimizing the sum of squared residuals from the regression line defined by
-<img src="https://render.githubusercontent.com/render/math?math=\beta_1"> 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20\beta_1"/> 
 and
-<img src="https://render.githubusercontent.com/render/math?math=\beta_0">.
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20\beta_0"/>.
 The residuals are the differerences from the observed values 
-<img src="https://render.githubusercontent.com/render/math?math=Y_i"> 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i"/> 
 from the values predicted by the regression line. 
 
 
-<img src="Images/Regression_Minimization.png">
+<img src="Images/Regression_Minimization.png"/>
 
 
 ## Estimating a Linear Regression in R
@@ -88,21 +87,21 @@ summary(my_lm_model)
 
 The quality of fit of a regression model is determined by the degree to which the observations fit close to the regression line. 
 It is represented by the statistic 
-<img src="https://render.githubusercontent.com/render/math?math=r^2">, 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20r^2"/>, 
 pronounced "R-squared."
 This statistic ranges from 
-<img src="https://render.githubusercontent.com/render/math?math=r^2 = 1">, 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20r^2 = 1"/>, 
 for a model that fits the data perfectly,
 to 
-<img src="https://render.githubusercontent.com/render/math?math=r^2 = 0">, 
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20r^2 = 0"/>, 
 if the dependent variable 
-<img src="https://render.githubusercontent.com/render/math?math=Y_i">
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20Y_i"/>
 is unrelated to the explanatory variable
-<img src="https://render.githubusercontent.com/render/math?math=X_i">.
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20X_i"/>.
 This statistic is shown in the regression output under the headings
 ```Multiple R-squared``` and ```Adjusted R-squared```.
 The ```Adjusted R-squared``` includes an adjustment, or penalty, to account for the number of variables in the model, because
 the ```Multiple R-squared``` can only be improved by including more variables in the model. 
 
-<img src="Images/Linear_regression.png">
+<img src="Images/Linear_regression.png"/>
 
