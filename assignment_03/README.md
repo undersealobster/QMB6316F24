@@ -58,6 +58,13 @@ c. Before making any reductions to your model, revise the model specification fi
       To incorporate this advice, you create and include a variable for squared horsepower. 
       
 
+```
+Enter your regression results here.
+
+
+
+```
+
 
     c.i) Hypothesize the signs for the coefficients on horsepower 
 	under this scenario. 
@@ -68,7 +75,6 @@ c. Before making any reductions to your model, revise the model specification fi
 Enter your response here.
 
 
-
 ```
 
   c.ii) Perform 1-sided t-tests of the hypotheses for each of the horsepower coefficients. 
@@ -76,6 +82,7 @@ That is, are the t-statistics higher than 1.96, with the same sign as you hypoth
 
 ```
 Enter your response here.
+Use the coefficients from the regression output for this model to draw your conclusions.
 
 
 
@@ -85,9 +92,10 @@ Enter your response here.
             Which model do you recommend? 
 		Be sure to cite evidence to support your choice. 
 		Specifically, check the four specification criteria: 
-		statistical significant $t$-statistics, an increase in R-squared, 
+		- statistical significant $t$-statistics, 
+		- an increase in R-squared, 
 		a good theoretical justification, and 
-		no large change in the other coefficients.
+		- no large change in the other coefficients.
 
 ```
 Enter your response here.
@@ -104,6 +112,7 @@ d. Again, use the best model that results from the answer to the previous questi
 
 ```
 Enter your response here.
+Use the coefficients from the regression output for this model to draw your conclusions.
 
 
 
@@ -114,8 +123,17 @@ e. Finally, consider another modification to your model.
 	Some say that John Deere tractors hold their value longer than other tractors. 
       This raises the question of whether an additional hour of use affects the value of a John Deere tractor 
 	differently than for tractors of other brands. 
-       Test the hypothesis, at the 5 percent level of significance, that the slope for engine hours differs by brand. 
 	You can test this by including an interaction with ```age:johndeere``` in the regression.
+	
+	```
+Enter your regression results here.
+
+
+
+```
+
+       Test the hypothesis, at the 5 percent level of significance, that the slope for engine hours differs by brand. 
+
        Does an additional hour of use affect the price of a John Deere tractor
 	differently than tractors of other brands?
 	
