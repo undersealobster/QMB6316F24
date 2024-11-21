@@ -15,8 +15,7 @@ incorporating the findings from the answer to the previous question.
 
 
 
-a. Estimate a regression model that uses all available variables, 
-except for the indicator for an enclosed cab.
+a. Estimate a regression model that uses all available variables.
 	Make sure to choose a reasonable transformation of the dependent variable, 
 	such as the logarithmic transformation, if necessary.
 	
