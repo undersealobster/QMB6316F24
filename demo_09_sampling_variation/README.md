@@ -7,21 +7,21 @@ Review the plot of each on popular internet sources and find what the movies hav
 ## Groundhog Day
 
 
-<img src="Groundhog_Day_poster.jpg" width="500"/>
+<img src="Images/Groundhog_Day_poster.jpg" width="500"/>
 
 
 
 ## The Butterfly Effect
 
 
-<img src="The_Butterfly_Effect_poster.jpg" width="500"/>
+<img src="Images/The_Butterfly_Effect_poster.jpg" width="500"/>
 
 
 
 ## 50 First Dates
 
 
-<img src="50_First_Dates_poster.jpg" width="500"/>
+<img src="Images/50_First_Dates_poster.jpg" width="500"/>
 
 
 
