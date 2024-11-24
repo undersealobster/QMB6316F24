@@ -11,7 +11,7 @@ the spaces below.
 
 ### Question 1
 
-a) Read in the \texttt{airplane\_sales.csv} dataset and store it in a data frame called \texttt{airplane\_sales} in your workspace. 
+a) Read in the ```airplane_sales.csv``` dataset and store it in a data frame called ```airplane_sales``` in your workspace. 
 
 
 ```
@@ -20,7 +20,7 @@ Enter the required code here.
 
 ```
 
-b) Calculate and copy the printed output from a \texttt{summary} of the data. 
+b) Calculate and copy the printed output from a ```summary``` of the data. 
 Use this to get familiar with the contents of the dataset. 
 
 
@@ -31,8 +31,8 @@ Copy your results here.
 
 ```
 
-c) Estimate a regression model to predict \texttt{price} as a function of \texttt{age}. 
-Copy the printed estimation output from the \texttt{summary} command. 
+c) Estimate a regression model to predict ```price``` as a function of ```age```. 
+Copy the printed estimation output from the ```summary``` command. 
 
 
 ```
@@ -45,8 +45,8 @@ Copy your results here.
 
 ### Question 2
 
-a) Read in the \texttt{airplane\_specs.csv} dataset and store it 
-in a data frame called \texttt{airplane\_specs} in your workspace. 
+a) Read in the ```airplane_specs.csv``` dataset and store it 
+in a data frame called ```airplane_specs``` in your workspace. 
 
 
 ```
@@ -55,11 +55,11 @@ Enter the required code here.
 
 ```
 
-b)  Form a dataset \texttt{airplane\_sales\_specs.csv} 
-by \texttt{merge}ing the data frames 
-\texttt{airplane\_sales.csv} and \texttt{airplane\_specs.csv}. 
+b)  Form a dataset ```airplane_sales_specs.csv``` 
+by ```merge```ing the data frames 
+```airplane_sales.csv``` and ```airplane_specs.csv```. 
 Store the new dataset in a data frame called 
-\texttt{airplane\_sales\_specs} in your workspace. 
+```airplane_sales_specs``` in your workspace. 
 
 
 ```
@@ -69,7 +69,7 @@ Enter the required code here.
 ```
 
 
-c) Calculate and copy the printed output from a \texttt{summary} of the data. 
+c) Calculate and copy the printed output from a ```summary``` of the data. 
 Use this to get familiar with the contents of the dataset. 
 
 
@@ -81,10 +81,10 @@ Copy your results here.
 ```
 
 
-d) Estimate a regression model to predict \texttt{price} as a function of 
-\texttt{age}, \texttt{pass}, \texttt{wtop}, \texttt{fixgear}, 
-and \texttt{tdrag}. 
-Copy the printed estimation output from the \texttt{summary} command. 
+d) Estimate a regression model to predict ```price``` as a function of 
+```age```, ```pass```, ```wtop```, ```fixgear```, 
+and ```tdrag```. 
+Copy the printed estimation output from the ```summary``` command. 
 
 
 ```
@@ -99,8 +99,8 @@ Copy your results here.
 
 ### Question 3
 
-a) Read in the \texttt{airplane\_perf.csv} dataset and store it 
-in a data frame called \texttt{airplane\_perf} in your workspace. 
+a) Read in the ```airplane_perf.csv``` dataset and store it 
+in a data frame called ```airplane_perf``` in your workspace. 
 
 
 ```
@@ -109,10 +109,10 @@ Enter the required code here.
 
 ```
 
-b) Form a dataset \texttt{airplane\_full.csv} 
-by \texttt{merge}ing all three datasets. 
+b) Form a dataset ```airplane_full.csv``` 
+by ```merge```ing all three datasets. 
 Store the new dataset 
-in a data frame called \texttt{airplane\_full} in your workspace. 
+in a data frame called ```airplane_full``` in your workspace. 
 
 
 ```
@@ -121,7 +121,7 @@ Enter the required code here.
 
 ```
 
-c) Calculate and copy the printed output from a \texttt{summary} 
+c) Calculate and copy the printed output from a ```summary``` 
 of the new variables. 
 Use this to get familiar with the contents of the dataset. 
 
@@ -134,11 +134,11 @@ Copy your results here.
 ```
 
 
-d) Estimate a regression model to predict \texttt{price} as a function of 
-\texttt{age}, \texttt{pass}, \texttt{wtop}, \texttt{fixgear}, 
-and \texttt{tdrag}, 
-as well as \texttt{horse}, \texttt{fuel}, \texttt{ceiling}, and \texttt{cruise}.
-Copy the printed estimation output from the \texttt{summary} command. 
+d) Estimate a regression model to predict ```price``` as a function of 
+```age```, ```pass```, ```wtop```, ```fixgear```, 
+and ```tdrag```, 
+as well as ```horse```, ```fuel```, ```ceiling```, and ```cruise```.
+Copy the printed estimation output from the ```summary``` command. 
 
 
 ```
@@ -159,12 +159,12 @@ Copy your results here.
 ### Question 4
 
 a) Create new variables 
-	\texttt{log\_price}, \texttt{log\_age}, \texttt{log\_horse}, 
-	\texttt{log\_fuel}, \texttt{log\_ceiling}, and \texttt{log\_cruise}
+	```log_price```, ```log_age```, ```log_horse```, 
+	```log_fuel```, ```log_ceiling```, and ```log_cruise```
 	from the variables 
-	\texttt{price}, \texttt{age}, \texttt{horse}, 
-	\texttt{fuel}, \texttt{ceiling}, and \texttt{cruise}, 
-	using the logarithm function \texttt{log()} in \texttt{R} 
+	```price```, ```age```, ```horse```, 
+	```fuel```, ```ceiling```, and ```cruise```, 
+	using the logarithm function ```log()``` in ```R``` 
 	to create these new variables. 
 
 
@@ -174,7 +174,7 @@ Enter the required code here.
 
 ```
 
-b) Calculate and copy the printed output from a \texttt{summary} 
+b) Calculate and copy the printed output from a ```summary``` 
 of the new variables. 
 Use this to get familiar with the contents of the dataset. 
 
@@ -187,13 +187,13 @@ Copy your results here.
 ```
 
 
-c) Estimate a regression model to predict \texttt{log\_price} as a function of 
-	\texttt{log\_age}, \texttt{pass}, \texttt{wtop}, \texttt{fixgear}, 
-	and \texttt{tdrag}, 
+c) Estimate a regression model to predict ```log_price``` as a function of 
+	```log_age```, ```pass```, ```wtop```, ```fixgear```, 
+	and ```tdrag```, 
 	as well as 
-	\texttt{log\_horse}, \texttt{log\_fuel}, \texttt{log\_ceiling}, 
-	and \texttt{log\_cruise}. 
-	Copy the printed estimation output from the \texttt{summary} command. 
+	```log_horse```, ```log_fuel```, ```log_ceiling```, 
+	and ```log_cruise```. 
+	Copy the printed estimation output from the ```summary``` command. 
 
 
 ```
@@ -210,7 +210,7 @@ d) If you notice that any coefficients are statistically insignificant,
 	determine whether the variable should be removed 
 	by considering the four specification criteria: 
 		statistically significant $t$-statistics, 
-		an increase in $\bar{R}^2$, 
+		an increase in $\bar{R```^2$, 
 		a good theoretical justification, and 
 		no large change in the other coefficients.
 
@@ -263,7 +263,7 @@ Copy your regression results here.
 
 
 
-e) Print the output from a \texttt{summary} of the regression results
+e) Print the output from a ```summary``` of the regression results
 of your final regression model.
 
 
@@ -294,5 +294,5 @@ Enter your response here.
 
 ### Question 5
 
-Push your completed files to the \texttt{final\_exam} folder 
+Push your completed files to the ```final_exam``` folder 
 in your private GitHub repository.
