@@ -210,7 +210,7 @@ d) If you notice that any coefficients are statistically insignificant,
 	determine whether the variable should be removed 
 	by considering the four specification criteria: 
 		statistically significant $t$-statistics, 
-		an increase in $\bar{R```^2$, 
+		an increase in ```R-bar-squared```, 
 		a good theoretical justification, and 
 		no large change in the other coefficients.
 
